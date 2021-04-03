@@ -1,0 +1,210 @@
+header
+{
+	 background-color: #f0c680;
+	 text-align: center;
+	 position:fixed;
+	 width:100%;
+	 z-index:1;
+	 top:0;
+	 left:0;
+}
+
+header h1
+{
+	 color: #005e8b;
+	 font-family:serif;	 
+	 padding : 6px 12px;
+	 
+	 /*border: 5px dashed red;
+	 display: inline-block;
+	 border-radius:10px;*/
+	 
+}
+.banner
+{
+	position: relative;	
+	width:100%;
+}
+
+.banner img
+{
+	 max-width:100%; 
+}
+
+.banner .welcome
+{
+    /*background-color: #FE8614;
+	padding: 30px;*/
+    color: beige;	
+	font-family: cursive;
+	text-shadow: 2px 2px lightgrey;
+	position:absolute;	
+    top:20%;	
+	left : 32%
+}
+
+.banner h2
+{
+	 font-size:30px;
+}
+
+.banner h2 span
+{
+	 font-size:1.2em;
+	 text-align:center;
+}
+
+nav
+{
+	 background-color: lightgrey;
+	 padding:20px;
+	 position:sticky;
+	 top:92px;
+	 
+	 
+}
+
+nav ul
+{
+	 white-space:nowrap;
+	 max-width:1200px;
+	 margin: 0 auto;
+}
+nav li
+{
+	 width: 25%;
+	 display:inline-block;
+	 font-size: 30px; 
+}
+
+nav li a
+{
+	color: black;
+}
+
+main
+{
+	 max-width:100%;
+	 width:1200px;
+	 margin:80px auto;
+	 padding: 0 40px;
+	 box-sizing: border-box;
+}
+
+article h2
+{
+	  color:brown;
+	  font-size:35px;
+}
+
+article h3
+{
+	  color:orange;
+	  font-size:30px;
+}
+article p
+{
+	  color:black;
+	  font-size:20px;
+}
+
+article padding
+{
+	 line-height: 2em;
+	 color: grey;
+}
+
+.images
+{
+	 margin:80px 0;
+	 white-space:nowrap;
+}
+
+.images li
+{
+	 display:inline-block; 
+	 width:40%;
+	 margin : 20px 5%;
+	 
+}
+
+.images li img
+{
+	  max-width:50%;
+	  max-height:45%;
+	  border:1px dotted black;
+	  border-radius:20px;
+	  
+}
+
+nav li a:hover
+{
+	 text-decoration:underline;
+	 background-color: pink;
+	 padding:3px;
+}
+
+.images li img:hover
+{
+	 position:relative;
+	 top:-4px;
+}
+
+@media screen and (max-width:666px)
+{
+	.banner .welcome 
+    {
+         position:relative;
+         padding:1px;
+		 left:0;
+		 
+    } 
+	.banner .welcome span
+    {
+         font-size:1em;	 
+		 background-color: #f0c680;
+	  
+    } 
+	.images li
+	{
+		 width: 100%;
+		 margin:20px auto;
+		 display: block;
+	}
+}
+
+@media screen and (max-width:666px)
+{
+	.banner .welcome 
+    {
+         position:relative;
+         padding:1px;
+		 left:0;
+		 
+    } 
+	.banner .welcome span
+    {
+         font-size:0.8em;	 
+		 background-color: #f0c680;
+	  
+    } 
+}
+
+@media screen and (max-width:550px)
+{
+	 nav li
+	 {
+		  font-size:20px;
+		  display:block;
+		  width: 100%;
+		  margin: 12px 0;
+	 }
+	 header
+	 {
+		  position: relative;
+	 }
+	 nav
+	 {
+		  top:0;
+	 }
+}
